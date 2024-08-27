@@ -1,0 +1,8 @@
+.secaoCoordenadas{
+    display: flex;
+    align-items: center;
+    background-color: #5891B5;
+    width: 400px;
+    height: 100vh;
+    flex-direction: column;
+}

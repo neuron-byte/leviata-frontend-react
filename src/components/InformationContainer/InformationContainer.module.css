@@ -1,0 +1,52 @@
+
+.divFechar{
+    display: flex;
+    width: 722px;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.fechar{
+    background-color: #0000;
+    border-style: none;
+    width: 10px;
+    height: 10px;
+    
+}
+
+.fechar:hover{
+    cursor: pointer;    
+}
+
+.fechar img{
+    width: 10px;
+    height: 10px;
+}
+
+.informacoes{
+    width: 722px;
+    height: 84px;
+    background-color: #5891B5;
+    color: #111111;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.tituloInfo{
+    width: 500px;
+    font-size: 16px;
+    margin-left: 19px;
+    margin-top: -12px;
+}
+
+.informacoes p{
+    font-size: 14px;
+    margin-left: 36px;
+    width: 665px;
+    height: 51px;
+}

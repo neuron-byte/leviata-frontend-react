@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from "./components/Button";
+import CardsSection from "./components/CardsSection";
+import Card from "./components/Card";
+import ContainerCards from "./components/ContainerCards";
+import ContainerMap from "./components/ContainerMap";
+import InformationContainer from "./components/InformationContainer";
+import Map from "./components/Map";
+
+import "leaflet/dist/leaflet.css";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>        
+          <CardsSection>
+            <ContainerCards>
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+              <Card />
+            </ContainerCards>
+            <Button 
+              props={{text : "Enviar Coordenadas", }}
+            />
+            <Button 
+              props={{text : "Novas Coordenadas", }}
+            />
+          </CardsSection>
+
+          <ContainerMap>
+            <InformationContainer/>
+            <Map />
+          </ContainerMap>
+          
+      </div> 
+    </>
   );
 }
 

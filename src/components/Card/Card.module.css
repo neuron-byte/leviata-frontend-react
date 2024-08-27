@@ -1,0 +1,56 @@
+.cardCoordenada{
+    background-color: #EAEAEA;
+    width: 320px;
+    height: 168px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    direction: ltr;
+    margin-bottom: 21px;
+}
+
+.medidas{
+    width: 268px;
+    height: 42px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #B5C4CD;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.textoMedidas{
+    color: #111111;
+    font-size: 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.areaBotaoEditar{
+    width: 308px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.botaoEditar{
+    border-style: none;
+    margin: 10px;
+    background-color: #0000;
+}
+
+.botaoEditar:hover{
+    cursor: pointer;
+}
+
+.imgBotaoEditar{
+    width: 20px;
+    height: 20px;
+}
+
+
+
