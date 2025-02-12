@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: center;
     background-color: #B5C4CD;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 15px;
 }
 
@@ -27,7 +27,7 @@
     color: #111111;
     font-size: 14px;
     margin-left: 12px;
-    margin-right: 12px;
+    margin-right: 10px;
 }
 
 .areaBotaoEditar{
@@ -47,10 +47,16 @@
     cursor: pointer;
 }
 
-.imgBotaoEditar{
+.trashIcon{
     width: 20px;
     height: 20px;
 }
 
+.inputMedidas{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 3px;
+}
 
 
